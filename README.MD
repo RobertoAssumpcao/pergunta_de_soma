@@ -1,0 +1,1 @@
+Criar um programa que faça perguntas de somar, verifique a quantidade de acertos e de a resposta da soma.
