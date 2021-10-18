@@ -8,11 +8,11 @@ acertos = 0
 numero_a = random.randrange(1, 100)
 numero_b = random.randrange(1, 100)
 
-# soma numero
-resultado = numero_a + numero_b
-
 #pergunta
 resposta = int(input(f"Quanto é {numero_a} + {numero_b} ? \n"))
+
+# soma numero
+resultado = numero_a + numero_b
 
 #resposta
 print(f"A resposta é {resultado}")
@@ -20,7 +20,8 @@ print(f"A resposta é {resultado}")
 #contando acerto
 if resposta == resultado:
     acertos = acertos + 1
-    
+else:
+    print("Resposta errada\n")
     
 # ---------------------------------------------------------------- 2 -------------------------------
 
@@ -28,11 +29,11 @@ if resposta == resultado:
 numero_a = random.randrange(1, 100)
 numero_b = random.randrange(1, 100)
 
-# soma numero
-resultado = numero_a + numero_b
-
 #pergunta
 resposta = int(input(f"Quanto é {numero_a} + {numero_b} ? \n"))
+
+# soma numero
+resultado = numero_a + numero_b
 
 #resposta
 print(f"A resposta é {resultado}")
@@ -40,6 +41,8 @@ print(f"A resposta é {resultado}")
 #contando acerto
 if resposta == resultado:
     acertos = acertos + 1
+else:
+    print("resposta errada")
     
 print(f"Voce acertou {acertos} vezes")
 
